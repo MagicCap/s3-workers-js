@@ -1,0 +1,6 @@
+name = "s3-workers-js"
+type = "webpack"
+zone_id = ""
+private = false
+account_id = "ac2dd89af834dd17d7f5cf5df3789f08"
+route = ""

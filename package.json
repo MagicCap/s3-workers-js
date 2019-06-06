@@ -1,0 +1,21 @@
+{
+    "name": "s3-workers-js",
+    "version": "1.0.0",
+    "description": "A caching/server-side URL rewriting system for Amazon S3 using Cloudflare Workers!",
+    "main": "index.js",
+    "scripts": {
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "Jake Gealer <jake@gealer.email>",
+    "license": "MPL-2.0",
+    "devDependencies": {
+        "husky": "^2.1.0",
+        "prettier": "^1.17.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run format",
+            "pre-push": "npm run format"
+        }
+    }
+}
