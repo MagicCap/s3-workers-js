@@ -1,5 +1,5 @@
 # s3-workers-js
-A caching/server-side URL rewriting system for Amazon S3 using Cloudflare Workers!
+A caching/server-side URL rewriting system for S3 services using Cloudflare Workers!
 
 ## Setup
 1) Set `bucketHost` in `index.js` to the host for your bucket.

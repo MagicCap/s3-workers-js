@@ -1,7 +1,7 @@
 {
     "name": "s3-workers-js",
     "version": "1.0.0",
-    "description": "A caching/server-side URL rewriting system for Amazon S3 using Cloudflare Workers!",
+    "description": "A caching/server-side URL rewriting system for S3 services using Cloudflare Workers!",
     "main": "index.js",
     "scripts": {
         "format": "prettier --write '**/*.{js,css,json,md}'"
